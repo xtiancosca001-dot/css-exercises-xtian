@@ -12,3 +12,8 @@
     color: #0000FF;
 }
 
+#number-four {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: hsl(120, 66%, 72%);
+}
