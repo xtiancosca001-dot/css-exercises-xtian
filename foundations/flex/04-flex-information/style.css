@@ -12,6 +12,25 @@ img {
   font-weight: 900;
 }
 
+/* Flexbox for all the sections */
+.main-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin: 0 auto;
+}
+
+.info-card {
+  display: flex;
+  gap: 52px;
+  text-align: center;
+}
+
+.info-card-details { 
+  width: 200px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
