@@ -7,6 +7,21 @@ body {
   justify-content: space-between;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
 .header {
   font-size: 32px;
   font-weight: 900;
@@ -36,6 +51,9 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding: 16px;
+  width: 300px;
+  flex-shrink: 0;
 }
 
 .card {
